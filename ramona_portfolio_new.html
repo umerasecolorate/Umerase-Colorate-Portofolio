@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Umerase Colorate Artistic Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6C5B7B;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #6C5B7B;
+            font-size: 18px;
+        }
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .portfolio img {
+            width: 48%;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #6C5B7B;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UMERASE COLORATE Artistic Creations</h1>
+    </header>
+    
+    <nav>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    </nav>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+    <img src="https://drive.google.com/uc?id=1QR01wGj8IK5OsPrXtIM6x8nxCmYvDThE" alt="Painting 1">
+    <img src="https://drive.google.com/uc?id=1_Qeh94uMlqjWet03ovtb6sIgLBed_aLE" alt="Painting 2">
+    <img src="https://drive.google.com/uc?id=16roK4oLOfQnIoo8bdxzQR5uvof2NNnut" alt="Painting 3">
+    <img src="https://drive.google.com/uc?id=13G6-iZdc__14QhyRIb3ZuvP8fp7bd17d" alt="Painting 4"
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, please fill out the form below:</p>
+        <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>Follow me on social media:</p>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    </footer>
+</body>
+</html>
